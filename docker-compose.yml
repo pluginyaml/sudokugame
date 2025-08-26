@@ -25,7 +25,7 @@ services:
     ports:
       # Forward requests made to port 80 (which is where the browser will send requests) ...
       # ... to port 8080 (which is where nginx will be running)
-      - "80:8080"
+      - "80:8887"
     depends_on:
       - backend
       - frontend
